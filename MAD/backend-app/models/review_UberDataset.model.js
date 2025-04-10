@@ -27,5 +27,5 @@ const reviewSchema = new mongoose.Schema(
     }
 )
 
-const Uber = mongoose.model("test.UberDataset", reviewSchema);
-module.exports = Uber; //Exportando el modelo de review
+const UberDataset = mongoose.model("UberDataset", reviewSchema);
+module.exports = UberDataset; //Exportando el modelo de review
