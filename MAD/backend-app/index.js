@@ -24,7 +24,7 @@ app.get('/',(req, res)=>{
 });
 
 //Endpoints de la coleccion Ubers
-app.use('/api/ubers', reviewRoutes);
+app.use('/api/UberDataset', reviewRoutes);
 
 //Definiendo la conexion a BD a travex de mongoose
 //La definicion a BD es de tipo promesa
